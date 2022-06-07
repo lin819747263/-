@@ -19,3 +19,6 @@ protected String[] selectImports(AdviceMode adviceMode) {
 AutoProxyRegistrar 为我们导入了InfrastructureAdvisorAutoProxyCreator的组件，我们从继承图可以看出，它也是一个BeanPostProcessor
 
 ![image-20220320195457903](https://gitee.com/linmsen/picture/raw/master//img/202203201954966.png)
+
+这个和我们的AOP很类似，
+
